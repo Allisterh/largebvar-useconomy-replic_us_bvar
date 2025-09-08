@@ -1,0 +1,33 @@
+id,name,transform,adjustment_status,frequency,units
+GDPC1,Real Gross Domestic Product,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+PCECC96,Real Personal Consumption Expenditures,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+PRFIC1,Real Private Residential Fixed Investment,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+PNFIC1,Real Private Nonresidential Fixed Investment,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+EXPGSC1,Real Exports of Goods and Services,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+IMPGSC1,Real Imports of Goods and Services,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+GCEC1,Real Government Consumption Expenditures and Gross Investment,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+FGCEC1,Real Federal Government Consumption Expenditures and Gross Investment,log_level_100,saar,Q,SAAR, Bil.Chn.2012$
+GDPDEF,Gross Domestic Product: Chain-type Price Index,log_level_100,sa,Q,SA, 2012=100
+PCEPI,Personal Consumption Expenditures: Chain-type Price Index,log_level_100,sa,Q,SA, 2012=100
+PCEPILFE,Personal Consumption Expenditures Excluding Food and Energy (Core PCE),log_level_100,sa,Q,SA, 2012=100
+CPIAUCSL,Consumer Price Index for All Urban Consumers: All Items,log_level_100,sa,M,SA, 1982-84=100
+CPILFESL,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy,log_level_100,sa,M,SA, 1982-84=100
+COMPRNFB,Nonfarm Business Sector: Compensation Per Hour,log_level_100,sa,Q,SA, Index 2012=100
+PAYEMS,All Employees, Total Nonfarm,log_level_100,sa,M,SA, Thous
+UNRATE,Unemployment Rate,level,sa,M,SA, %
+INDPRO,Industrial Production Index,log_level_100,sa,M,SA, 2012=100
+TCU,Capacity Utilization: Manufacturing,level,sa,M,SA, Percent of Capacity
+HOUST,Housing Starts,log_level_100,saar,M,SAAR, Thous.Units
+DSPIC96,Real Disposable Personal Income,log_level_100,saar,M,SAAR, Bil.Chn.2012$
+UMCSENT,University of Michigan: Consumer Sentiment,level,nsa,M,NSA, Q1-66=100
+DFF,Federal Funds Effective Rate,level,raw,D,% p.a.
+DGS2,2-Year Treasury Constant Maturity Rate,level,raw,D,% p.a.
+DGS5,5-Year Treasury Constant Maturity Rate,level,raw,D,% p.a.
+DGS10,10-Year Treasury Constant Maturity Rate,level,raw,D,% p.a.
+AAA,Moody's Seasoned Aaa Corporate Bond Yield,level,raw,M,% p.a.
+BAA,Moody's Seasoned Baa Corporate Bond Yield,level,raw,M,% p.a.
+DTWEXBGS,Nominal Broad U.S. Dollar Index,log_level_100,raw,D,Mar-73=100
+SP500,S&P 500,log_level_100,raw,D,1941-43=10
+DCOILWTICO,Crude Oil Prices: West Texas Intermediate,log_level_100,raw,D,$/Barrel
+PNRGINDEXM,Global Price Index of All Commodities, Non-Energy,log_level_100,raw,M,AVG, Jan-02-70=100
+VIXCLS,CBOE Volatility Index: VIX,level,raw,D,Index

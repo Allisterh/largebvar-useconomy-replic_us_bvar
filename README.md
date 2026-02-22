@@ -97,7 +97,7 @@ largebvar-useconomy/
 3. **Set up FRED API key**:
    The `.env` file already contains your FRED API key:
    ```
-   FRED_API_KEY=8f34c53a93c1fb0168c9d7097ee751a9
+   FRED_API_KEY=
    ```
 
 ## Quick Start

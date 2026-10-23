@@ -43,10 +43,14 @@ var_project/
    ```
 
 3. **Set up FRED API key**:
-   The `.env` file already contains your FRED API key:
+   Create a local `.env` file for the Python pipeline (already ignored by Git):
    ```
-   FRED_API_KEY=8f34c53a93c1fb0168c9d7097ee751a9
+   FRED_API_KEY=your_fred_api_key_here
    ```
+
+   Never commit a real API key. For the R scripts, set `FRED_API_KEY` in
+   your shell or an untracked `.Renviron` file before starting R.
+   R reads `.Renviron` at startup; the R scripts do not load Python's `.env` file.
 
 ## Quick Start
 

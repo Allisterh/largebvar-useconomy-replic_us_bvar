@@ -13,7 +13,14 @@ suppressPackageStartupMessages({
   library(BVAR); library(fredr); library(tidyverse); library(lubridate); library(zoo)
 })
 
-fred_key <- Sys.getenv("FRED_API_KEY", unset = "8f34c53a93c1fb0168c9d7097ee751a9")
+# Read the FRED key from the environment; never use a committed fallback.
+fred_key <- Sys.getenv("FRED_API_KEY")
+if (!nzchar(trimws(fred_key))) {
+  stop(
+    "Set FRED_API_KEY in your environment or local .Renviron before running.",
+    call. = FALSE
+  )
+}
 fredr_set_key(fred_key)
 
 .safe_mtext <- function(txt) tryCatch(mtext(txt, side = 3, line = 1, cex = 1.1), error = function(e) invisible(NULL))
